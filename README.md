@@ -4,6 +4,6 @@
 
 * Replicate templates via one diamond, one template and one material on smithing tables.
 
-## Acknowledgement
+## Acknowledgements
 
 * ChatGPT 5.5 writes the script.
