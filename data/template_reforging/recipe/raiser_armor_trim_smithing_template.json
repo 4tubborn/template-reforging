@@ -1,8 +1,8 @@
 {
     "type": "smithing_transform",
-    "template": "diamond",
+    "template": "terracotta",
     "base": "raiser_armor_trim_smithing_template",
-    "addition": "terracotta",
+    "addition": "diamond",
     "result": {
         "id": "raiser_armor_trim_smithing_template",
         "count": 2

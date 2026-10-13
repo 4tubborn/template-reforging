@@ -1,8 +1,8 @@
 {
     "type": "smithing_transform",
-    "template": "diamond",
+    "template": "mossy_cobblestone",
     "base": "wild_armor_trim_smithing_template",
-    "addition": "mossy_cobblestone",
+    "addition": "diamond",
     "result": {
         "id": "wild_armor_trim_smithing_template",
         "count": 2

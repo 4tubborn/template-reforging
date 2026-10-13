@@ -1,8 +1,8 @@
 {
     "type": "smithing_transform",
-    "template": "diamond",
+    "template": "blackstone",
     "base": "snout_armor_trim_smithing_template",
-    "addition": "blackstone",
+    "addition": "diamond",
     "result": {
         "id": "snout_armor_trim_smithing_template",
         "count": 2

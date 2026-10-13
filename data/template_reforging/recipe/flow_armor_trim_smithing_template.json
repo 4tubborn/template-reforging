@@ -1,8 +1,8 @@
 {
     "type": "smithing_transform",
-    "template": "diamond",
+    "template": "breeze_rod",
     "base": "flow_armor_trim_smithing_template",
-    "addition": "breeze_rod",
+    "addition": "diamond",
     "result": {
         "id": "flow_armor_trim_smithing_template",
         "count": 2

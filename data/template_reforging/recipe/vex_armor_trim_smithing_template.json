@@ -1,8 +1,8 @@
 {
     "type": "smithing_transform",
-    "template": "diamond",
+    "template": "cobblestone",
     "base": "vex_armor_trim_smithing_template",
-    "addition": "cobblestone",
+    "addition": "diamond",
     "result": {
         "id": "vex_armor_trim_smithing_template",
         "count": 2

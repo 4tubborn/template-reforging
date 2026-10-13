@@ -1,8 +1,8 @@
 {
     "type": "smithing_transform",
-    "template": "diamond",
+    "template": "prismarine",
     "base": "tide_armor_trim_smithing_template",
-    "addition": "prismarine",
+    "addition": "diamond",
     "result": {
         "id": "tide_armor_trim_smithing_template",
         "count": 2

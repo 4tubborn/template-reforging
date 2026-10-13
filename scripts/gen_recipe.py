@@ -34,9 +34,9 @@ templates = {
 for template_id, material_id in templates.items():
     recipe = {
         "type": "smithing_transform",
-        "template": "diamond",
+        "template":  material_id,
         "base": template_id,
-        "addition": material_id,
+        "addition": "diamond",
         "result": {
             "id": template_id,
             "count": 2

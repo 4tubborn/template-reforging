@@ -1,11 +1,11 @@
 {
     "type": "smithing_transform",
-    "template": "diamond",
-    "base": "bolt_armor_trim_smithing_template",
-    "addition": [
+    "template": [
         "copper_block",
         "waxed_copper_block"
     ],
+    "base": "bolt_armor_trim_smithing_template",
+    "addition": "diamond",
     "result": {
         "id": "bolt_armor_trim_smithing_template",
         "count": 2

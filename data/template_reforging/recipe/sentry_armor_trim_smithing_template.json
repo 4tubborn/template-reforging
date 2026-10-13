@@ -1,8 +1,8 @@
 {
     "type": "smithing_transform",
-    "template": "diamond",
+    "template": "cobblestone",
     "base": "sentry_armor_trim_smithing_template",
-    "addition": "cobblestone",
+    "addition": "diamond",
     "result": {
         "id": "sentry_armor_trim_smithing_template",
         "count": 2

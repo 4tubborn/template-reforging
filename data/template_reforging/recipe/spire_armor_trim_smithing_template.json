@@ -1,8 +1,8 @@
 {
     "type": "smithing_transform",
-    "template": "diamond",
+    "template": "purpur_block",
     "base": "spire_armor_trim_smithing_template",
-    "addition": "purpur_block",
+    "addition": "diamond",
     "result": {
         "id": "spire_armor_trim_smithing_template",
         "count": 2

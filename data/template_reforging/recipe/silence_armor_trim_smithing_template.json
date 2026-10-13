@@ -1,8 +1,8 @@
 {
     "type": "smithing_transform",
-    "template": "diamond",
+    "template": "cobbled_deepslate",
     "base": "silence_armor_trim_smithing_template",
-    "addition": "cobbled_deepslate",
+    "addition": "diamond",
     "result": {
         "id": "silence_armor_trim_smithing_template",
         "count": 2

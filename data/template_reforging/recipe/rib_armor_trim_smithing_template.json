@@ -1,8 +1,8 @@
 {
     "type": "smithing_transform",
-    "template": "diamond",
+    "template": "netherrack",
     "base": "rib_armor_trim_smithing_template",
-    "addition": "netherrack",
+    "addition": "diamond",
     "result": {
         "id": "rib_armor_trim_smithing_template",
         "count": 2
