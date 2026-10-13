@@ -1,0 +1,10 @@
+{
+    "type": "smithing_transform",
+    "template": "diamond",
+    "base": "netherite_upgrade_smithing_template",
+    "addition": "netherrack",
+    "result": {
+        "id": "netherite_upgrade_smithing_template",
+        "count": 2
+    }
+}

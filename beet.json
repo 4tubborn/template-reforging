@@ -1,0 +1,18 @@
+{
+  "author": "4tubborn",
+  "description": "Replicate smithing templates using smithing tables.",
+  "data_pack": {
+    "zipped": true,
+    "name": "Template Reforging {{ version }}",
+    "load": ["."]
+  },
+  "pipeline": [
+    "beet.contrib.minify_function",
+    "beet.contrib.minify_json",
+    "beet.contrib.render"
+  ],
+  "meta": {
+    "version": "v0.0.1"
+  },
+  "output": "build"
+}

@@ -1,0 +1,10 @@
+{
+    "type": "smithing_transform",
+    "template": "diamond",
+    "base": "host_armor_trim_smithing_template",
+    "addition": "terracotta",
+    "result": {
+        "id": "host_armor_trim_smithing_template",
+        "count": 2
+    }
+}

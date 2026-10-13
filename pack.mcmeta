@@ -1,0 +1,13 @@
+{
+  "pack": {
+    "description": "",
+    "min_format": 57,
+    "max_format": 114514,
+    "pack_format": 57,
+    "supported_formats": [57,114514]
+  },
+  "overlays": {
+    "entries": [
+    ]
+  }
+}

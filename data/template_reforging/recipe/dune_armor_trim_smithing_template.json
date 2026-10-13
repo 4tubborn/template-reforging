@@ -1,0 +1,10 @@
+{
+    "type": "smithing_transform",
+    "template": "diamond",
+    "base": "dune_armor_trim_smithing_template",
+    "addition": "sandstone",
+    "result": {
+        "id": "dune_armor_trim_smithing_template",
+        "count": 2
+    }
+}

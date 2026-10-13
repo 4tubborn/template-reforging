@@ -1,0 +1,10 @@
+{
+    "type": "smithing_transform",
+    "template": "diamond",
+    "base": "eye_armor_trim_smithing_template",
+    "addition": "end_stone",
+    "result": {
+        "id": "eye_armor_trim_smithing_template",
+        "count": 2
+    }
+}

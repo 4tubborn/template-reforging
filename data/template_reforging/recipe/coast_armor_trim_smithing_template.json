@@ -1,0 +1,10 @@
+{
+    "type": "smithing_transform",
+    "template": "diamond",
+    "base": "coast_armor_trim_smithing_template",
+    "addition": "cobblestone",
+    "result": {
+        "id": "coast_armor_trim_smithing_template",
+        "count": 2
+    }
+}
