@@ -1,6 +1,6 @@
 {
   "author": "4tubborn",
-  "description": "Replicate templates using smithing tables.",
+  "description": "Replicate templates on smithing tables.",
   "data_pack": {
     "zipped": true,
     "name": "Template Reforging {{ version }}",

@@ -1,8 +1,15 @@
 import json
 from pathlib import Path
 
-OUTPUT_DIR = Path("data/template_reforging/recipe")
+NAMESPACE = "template_reforging"
+
+OUTPUT_DIR = Path("data") / NAMESPACE / "recipe"
 OUTPUT_DIR.mkdir(parents=True, exist_ok=True)
+
+rows = [
+    "| Template | Base | Addition | Result |",
+    "| --- | --- | --- | --- |"
+]
 
 templates = {
     "netherite_upgrade_smithing_template": "netherrack",
@@ -31,7 +38,10 @@ templates = {
     "bolt_armor_trim_smithing_template": ["copper_block","waxed_copper_block"],
 }
 
+
 for template_id, material_id in templates.items():
+
+    #recipe
     recipe = {
         "type": "smithing_transform",
         "template":  material_id,
@@ -49,3 +59,15 @@ for template_id, material_id in templates.items():
         json.dump(recipe, f, indent=4, ensure_ascii=False)
 
     print(f"Generated: {path}")
+
+    # md
+    # if list, then separate by comma
+    material_str = (
+        ", ".join(material_id) 
+        if isinstance(material_id, list)
+        else material_id
+    )
+
+    rows.append(f"| {material_str} | {template_id} | diamond | 2x {template_id} |")
+
+Path("recipes.md").write_text("\n".join(rows) + "\n", encoding="utf-8")
